@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 import serial
 import time
 
 ser = serial.Serial(
-    port= '/dev/ttyAM0',
+    port= '/dev/ttyAMA0',
     baudrate = 9600,
     parity = serial.PARITY_NONE,
     stopbits = serial.STOPBITS_ONE,
